@@ -35,6 +35,7 @@ ax.set_xticks([])
 ax.set_yticks([])
 ax.set_xlabel('')
 ax.set_ylabel('')
+ax.set_aspect('equal')
 
 plt.box(False)
 plt.show()

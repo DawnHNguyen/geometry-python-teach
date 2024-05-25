@@ -53,5 +53,6 @@ for ax in axs:
     ax.set_ylabel('')
     ax.set_xticks([])
     ax.set_yticks([])
+    ax.set_aspect('equal')
 
 plt.show()
